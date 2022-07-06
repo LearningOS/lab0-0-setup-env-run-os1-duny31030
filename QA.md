@@ -7,7 +7,7 @@
      - [B站的GitHub Classroom 视频介绍](https://www.bilibili.com/video/BV12L41147r7?spm_id_from=333.337.search-card.all.click&vd_source=8e19ee6e49f598fda8c17e306d8b3726) 
      - [Youtube的GitHub Classroom视频介绍](https://www.youtube.com/playlist?list=PLIRjfNq867bewk3ZGV6Z7a16YDNRCpK3u)
      - [github文档：使用 GitHub Classroom 教学](https://docs.github.com/cn/education/manage-coursework-with-github-classroom/get-started-with-github-classroom)
-  
+
 ## Q1：已经在classroom中建立了自己的仓库（例如 “LearningOS/lab0-0-setup-env-run-os1-chyyuu2022"），但是源仓库“LearningOS/rust-based-os-comp2022“更新了，如何处理？
 
 ### A：
@@ -32,7 +32,7 @@ git push -f
 ```
 
 **方法三：**
-  
+
     向管理员“助教许善朴”申请删除已生成仓库，再点击 链接重新创建仓库。
 
 ##  Q2：在classroom中建立了自己的仓库中，进行提交 `git push` 后，触发 CI后，出现 Annotations 错误“The job was not stared because recent account payments have failed or your spending limit needs to be increased. Please check the 'Billing & plans' section in your settings”，无法完成自动CI功能，比如 `Autograding` 等。
